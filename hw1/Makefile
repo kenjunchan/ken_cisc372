@@ -8,5 +8,6 @@ myhi: ken_hello.c
 	gcc -o myhi ken_hello.c
 
 clean:
-	rm myhi
+	rm -f myhi
+	rm -f ken_hello *~
 
